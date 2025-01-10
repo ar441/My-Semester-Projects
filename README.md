@@ -7,7 +7,7 @@
 - Customizes quiz length based on user input. 
 - Displays total incorrect/correct count at the end of the quiz.  
 
-### Project 2: Random Number Generator
+### Project 2: Random Number Generator Game
 **Summary**: A game where the user can guess a random number. The player has 3 lives. 
 **Key Features**: 
 - 3 levels of difficulty.
