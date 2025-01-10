@@ -19,12 +19,11 @@
 - Randomly generated numbers that determine outcome.
 - A loop that allows for replayability.
 
-### Project 4: Weather App 
-**Summary**: 
+### Project 4: Simple Calculator 
+**Summary**: A simple functions calculator that solves problems based on user input. Includes addition, subtraction, multiplication, and division. 
 **Key Features**: 
-- Fetches live weather data.
-- Displays temperature, humidity, and weather conditions. 
-- Handles invalid inputs gracefully.  
+- Creates a calculator that doesn't quiz until user input is given.
+- Uses functions within the main function to solve the user given problem. 
 
 ### Project 5: Weather App 
 **Summary**: 
