@@ -25,9 +25,9 @@
 - Creates a calculator that doesn't quiz until user input is given.
 - Uses functions within the main function to solve the user given problem. 
 
-### Project 5: Weather App 
-**Summary**: 
+### Project 5: Pokemon Game
+**Summary**: A small game where the user is a trainer with a Pichu. Level up and evolve your pokemon. 
 **Key Features**: 
-- Fetches live weather data.
-- Displays temperature, humidity, and weather conditions. 
-- Handles invalid inputs gracefully.  
+- Choices to improve pokemon ability based on user input.
+- Evolution determined by pokemon level. 
+- Visuals that display the pokemon's appearance.  
