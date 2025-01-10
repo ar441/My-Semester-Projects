@@ -1,6 +1,6 @@
 # My-Semester-Projects
 
-### Project 1: Multiplication Quiz Generator 
+### Project 1: Multiplication Quiz  
 **Summary**: This program creates a quiz for the user to practice their multiplication skills. 
 **Key Features**: 
 - Randomly generates a quiz based on the 12 x 12 multiplication table. 
