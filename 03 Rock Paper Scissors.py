@@ -1,6 +1,3 @@
-#Ariana Ramos
-#Period 1
-
 import random
 
 def rockpaperscissors():
