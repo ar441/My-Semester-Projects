@@ -1,0 +1,77 @@
+#Ariana Ramos
+#Period 1
+#Make sure both variables are integers
+import random
+
+def numberGame():
+    print("Welcome to the Secret Number Guessing Game. Try to guess the mystery number correctly. You get three lives!")
+    lives = 3 #Sets the amount of lives
+    replay = 1
+    while replay == 1: #A loop to make sure the program keeps running as long as replay is true
+        replay = replay + 1
+        difficulty = int(input("Which difficulty would you like to play on? Easy (1), Normal (2), or Hard (3)?"))
+        if difficulty == 1:
+            y = random.randint(0,10) #Selects the answer
+            while lives != 0:
+                if lives == 1:
+                    print("This is your last try!")
+                x = int(input("Enter a number between 0 and 10:"))
+                if x == y:
+                    print("Correct! The number was " + str(y) + ".")
+                    break
+                elif x > y:
+                    print("No. . . Better luck next time. The number is too high! It was not " + str(x) + ".")
+                    lives = lives - 1
+                elif x < y:
+                    print("No. . . Better luck next time. The number is too low! It was not " + str(x) + ".")
+                    lives = lives - 1
+        if difficulty == 2:
+            a = random.randint(0,50) #Selects the answer
+            while lives != 0:
+                if lives == 1:
+                    print("This is your last try!")
+                b = int(input("Enter a number between 0 and 50:"))
+                if a == b:
+                    print("Correct! The number was " + str(a) + ".")
+                    break
+                elif a < b:
+                    print("No. . . Better luck next time. The number is too high! It was not " + str(b) + ".")
+                    lives = lives - 1
+                elif a > b:
+                    print("No. . . Better luck next time. The number is too low! It was not " + str(b) + ".")
+                    lives = lives - 1
+        if difficulty == 3:
+            c = random.randint(0,100) #Selects the answer
+            while lives != 0:
+                if lives == 1:
+                    print("This is your last try!")
+                d = int(input("Enter a number between 0 and 100:"))
+                if c == d:
+                    print("Correct! The number was " + str(c) + ".")
+                    break
+                elif c < d:
+                    print("No. . . Better luck next time. The number it too high! It was not " + str(d) + ".")
+                    lives = lives - 1
+                elif c > d:
+                    print("No. . . Better luck next time. The number it too low! It was not " + str(d) + ".")
+                    lives = lives - 1
+        if lives > 0:
+            print("Congrats! You guessed correctly! You won!")
+            playagain = int(input("Press 1 to play again. Press any other number to exit."))
+            if playagain == 1: #resets the game
+                lives = 3
+                replay = replay - 1
+            elif playagain != 1:
+                break #Ends the game based on user input
+
+        if lives == 0:
+            print("Sorry... You lost.")
+            playagain = int(input("Press 1 to play again. Press any other number to exit."))
+            if playagain == 1: #resets the game
+                lives = 3
+                replay = replay - 1
+            elif playagain != 1:
+                break #Ends the game based on user input
+
+#main
+numberGame()
